@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <title>Roman Numeral Node with Express API Test</title>
+</head>
+<body>
+  <h1>Enter an Arabic number you'd like to convert to a Roman numeral</h1>
+  <form action='' name='myform' id="myform" method='GET'>
+    <!-- not setting the name attribute keeps it from being sent in the URL -->
+	<input type='text' id="number">
+    <button action='submit'>Submit number</button>
+  </form>
+  <script>
+  // Shorthand for $(document).ready();
+  $(function() {
+   $('#myform').submit(function(){
+     var year = $('#number').val();
+	 // alert(year);
+     $(this).attr('action', "/roman/" + year);
+   });
+  });
+ </script>
+</body>
+</html>

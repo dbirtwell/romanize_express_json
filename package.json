@@ -1,0 +1,17 @@
+{
+  "name": "romanize_express_json",
+  "version": "1.0.0",
+  "description": "A node express api to generate roman numerals",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.9.x"
+  },
+  "author": "dbirtwell",
+  "license": "MIT"
+}
