@@ -31,3 +31,11 @@ where /roman is the mapped route and /2016 is the selected year.
 The result should  be echoed to the screen as:
 
 {"result":"MMXVI"}
+
+This is also deployed a Heroku at:
+
+https://romanize-node-express.herokuapp.com
+
+and can be seen in action via a call such as:
+
+https://romanize-node-express.herokuapp.com/roman/2016
